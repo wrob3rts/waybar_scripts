@@ -1,0 +1,55 @@
+[2025-08-09 14:10:14.162] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:10:14.167] [info] Discovered appearance 'dark'
+[2025-08-09 14:10:14.167] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:10:14.314] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:13:33.565] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:13:33.570] [info] Discovered appearance 'dark'
+[2025-08-09 14:13:33.570] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:13:33.580] [warning] module taskbar: Unknown module: taskbar
+[2025-08-09 14:13:33.725] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:19:39.729] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:19:39.733] [info] Discovered appearance 'dark'
+[2025-08-09 14:19:39.733] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:19:39.932] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:19:42.038] [info] Quitting.
+[2025-08-09 14:19:45.962] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:19:45.966] [info] Discovered appearance 'dark'
+[2025-08-09 14:19:45.966] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:19:46.174] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:22:45.830] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:22:45.830] [error] Error parsing JSON: * Line 56, Column 9
+  Missing ',' or '}' in object declaration
+
+[2025-08-09 14:23:18.677] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:23:18.682] [info] Discovered appearance 'dark'
+[2025-08-09 14:23:18.682] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:23:18.885] [error] temperature: argument not found
+[2025-08-09 14:23:18.899] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:23:28.695] [error] temperature: argument not found
+[2025-08-09 14:23:34.934] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:23:34.939] [info] Discovered appearance 'dark'
+[2025-08-09 14:23:34.939] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:23:35.138] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:24:19.061] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:24:19.066] [info] Discovered appearance 'dark'
+[2025-08-09 14:24:19.066] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:24:19.280] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:24:25.780] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:24:25.784] [info] Discovered appearance 'dark'
+[2025-08-09 14:24:25.784] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:24:25.996] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:24:35.658] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:24:35.664] [info] Discovered appearance 'dark'
+[2025-08-09 14:24:35.664] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:24:35.864] [error] temperature: argument not found
+[2025-08-09 14:24:35.875] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:24:45.682] [error] temperature: argument not found
+[2025-08-09 14:24:49.544] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:24:49.549] [info] Discovered appearance 'dark'
+[2025-08-09 14:24:49.549] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:24:49.761] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+[2025-08-09 14:25:55.407] [info] Using configuration file /home/ender/.config/waybar/config.jsonc
+[2025-08-09 14:25:55.413] [info] Discovered appearance 'dark'
+[2025-08-09 14:25:55.413] [info] Using CSS file /home/ender/.config/waybar/style.css
+[2025-08-09 14:25:55.618] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+Gdk-Message: 18:42:34.513: Error reading events from display: Broken pipe
