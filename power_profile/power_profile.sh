@@ -37,8 +37,15 @@ TOOLTIP_OUTPUT="Currrent Profile: $PROFILE"
 if $WATTAGE_TOGGLE; then
     WATTAGE=$(echo "$BATTERY" | awk '/energy-rate:/ {print $2, $3}' | tr -d ' W')
     ROUNDED_WATTAGE=$(printf %.0f $(echo "$WATTAGE" | bc -l))
-    MAIN_OUTPUT="$MAIN_OUTPUT $ROUNDED_WATTAGE W"
-    TOOLTIP_OUTPUT="$TOOLTIP_OUTPUT\nWattage: $WATTAGE W"
+    if (( "$WATTAGE" == 0)); then
+        ROUNDED_WATTAGE="  "
+        WATTAGE="On AC Power"
+    else
+        WATTAGE="Wattage: $WATTAGE W"
+        ROUNDED_WATTAGE="$ROUNDED_WATTAGE W"
+    fi
+    MAIN_OUTPUT="$MAIN_OUTPUT $ROUNDED_WATTAGE"
+    TOOLTIP_OUTPUT="$TOOLTIP_OUTPUT\n$WATTAGE"
 fi
 
 echo "{\"text\": \" $MAIN_OUTPUT \", \"tooltip\": \"$TOOLTIP_OUTPUT\"}"
